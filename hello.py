@@ -5,7 +5,7 @@ application = Flask(__name__)
 
 @application.route("/")
 def hello():
-	return "Hello There! 1234"
+	return "Hello There!"
 
 if __name__ == "__main__":
 	time.sleep(15)
